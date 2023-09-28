@@ -6,11 +6,6 @@ import { PublicRoutingModule } from './public-routing.module';
 import { PublicComponent } from './public.component';
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
-import { BlogFullWidthComponent } from './pages/blog-full-width/blog-full-width.component';
-import { BlogLeftSidebarComponent } from './pages/blog-left-sidebar/blog-left-sidebar.component';
-import { BlogSingleComponent } from './pages/blog-single/blog-single.component';
-import { BlogSingleFullWidthComponent } from './pages/blog-single-full-width/blog-single-full-width.component';
-import { BlogSingleLeftSidebarComponent } from './pages/blog-single-left-sidebar/blog-single-left-sidebar.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { GeneralInsustryComponent } from './pages/general-insustry/general-insustry.component';
@@ -26,6 +21,7 @@ import { ServiceSingleComponent } from './pages/service-single/service-single.co
 import { ServicesS2Component } from './pages/services-s2/services-s2.component';
 import { TeamComponent } from './pages/team/team.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
 
 
 
@@ -36,11 +32,7 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
     HomeComponent,
     AboutComponent,
     BlogComponent,
-    BlogFullWidthComponent,
-    BlogLeftSidebarComponent,
-    BlogSingleComponent,
-    BlogSingleFullWidthComponent,
-    BlogSingleLeftSidebarComponent,
+    BlogDetailComponent,
     ContactComponent,
     FaqComponent,
     GeneralInsustryComponent,
@@ -56,6 +48,7 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
     ServicesS2Component,
     TeamComponent,
     TestimonialsComponent,
+    BlogDetailComponent,
   ],
   imports: [
     CommonModule,

@@ -3,11 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
-import { BlogFullWidthComponent } from './pages/blog-full-width/blog-full-width.component';
-import { BlogLeftSidebarComponent } from './pages/blog-left-sidebar/blog-left-sidebar.component';
-import { BlogSingleComponent } from './pages/blog-single/blog-single.component';
-import { BlogSingleFullWidthComponent } from './pages/blog-single-full-width/blog-single-full-width.component';
-import { BlogSingleLeftSidebarComponent } from './pages/blog-single-left-sidebar/blog-single-left-sidebar.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { GeneralInsustryComponent } from './pages/general-insustry/general-insustry.component';
@@ -25,15 +21,12 @@ import { ServicesS2Component } from './pages/services-s2/services-s2.component';
 import { TeamComponent } from './pages/team/team.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: BlogComponent },
-  { path: 'blog-full-width', component: BlogFullWidthComponent },
-  { path: 'blog-left-sidebar', component: BlogLeftSidebarComponent },
-  { path: 'blog-single', component: BlogSingleComponent },
-  { path: 'blog-single-full-width', component: BlogSingleFullWidthComponent },
-  { path: 'blog-single-left-sidebar', component: BlogSingleLeftSidebarComponent },
+  { path: 'blog-detail', component: BlogDetailComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'general-insustry', component: GeneralInsustryComponent },
